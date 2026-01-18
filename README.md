@@ -1,10 +1,10 @@
-📌 Productivity Management Dashboard API
+#Productivity Management Dashboard API
 
 A backend REST API for managing tasks, tracking productivity, and generating insights.
 Built using Node.js, Express, PostgreSQL, and JWT authentication.
 
-🚀 Features
-🔐 Authentication & Authorization
+#Features
+##Authentication & Authorization
 
 User registration and login
 
@@ -14,7 +14,7 @@ Secure password hashing using bcrypt
 
 Users can access only their own data
 
-✅ Task Management
+##Task Management
 
 Create, read, update, delete tasks
 
@@ -34,7 +34,7 @@ Tags / Categories
 
 Tasks are linked to authenticated users
 
-⏰ Task Status & Deadline Handling
+#Task Status & Deadline Handling
 
 Automatically marks tasks as overdue
 
@@ -42,7 +42,7 @@ Manual status updates supported
 
 Stores creation & update timestamps
 
-🔍 Search & Filtering
+## Search & Filtering
 
 Search by title or description
 
@@ -56,7 +56,7 @@ Deadline range
 
 Tags
 
-📊 Productivity Dashboard (API-Level)
+## Productivity Dashboard (API-Level)
 
 Total tasks
 
@@ -68,7 +68,7 @@ Completion rate
 
 Tasks completed per day (last 7 days)
 
-🛠 Tech Stack
+## Tech Stack
 
 Backend: Node.js, Express.js
 
@@ -82,15 +82,15 @@ Security: bcrypt, dotenv
 
 Tools: Nodemon, Git
 
-⚙️ Setup Instructions
-1️⃣ Clone the repository
+# Setup Instructions
+## Clone the repository
 git clone https://github.com/ArkTulips/Productivity-Management-Dashboard-API.git
 cd task-1/server
 
-2️⃣ Install dependencies
+## Install dependencies
 npm install
 
-3️⃣ Configure environment variables
+## Configure environment variables
 
 Create a .env file inside server/:
 
@@ -102,7 +102,7 @@ DB_PORT=5432
 DB_NAME=productivity
 JWT_SECRET=your_secret_key
 
-4️⃣ Start the server
+## Start the server
 npx nodemon index.js
 
 
@@ -110,7 +110,7 @@ Server runs on:
 
 http://localhost:5000
 
-🔑 API Endpoints
+# API Endpoints
 Auth
 
 POST /api/auth/register
@@ -137,7 +137,7 @@ GET /api/dashboard
 
 Returns aggregated productivity metrics.
 
-🔒 Authentication Flow
+# Authentication Flow
 
 User registers or logs in
 
@@ -149,7 +149,7 @@ Middleware validates token
 
 User-specific data is returned
 
-📌 Notes
+# Notes
 
 RESTful API design
 
@@ -159,6 +159,6 @@ Modular route structure
 
 Proper error handling and validation
 
-👨‍💻 Author
+# Author
 
 Built by Sukrit Pal
