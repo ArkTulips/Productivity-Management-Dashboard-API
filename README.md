@@ -1,10 +1,10 @@
-#Productivity Management Dashboard API
+# Productivity Management Dashboard API
 
 A backend REST API for managing tasks, tracking productivity, and generating insights.
 Built using Node.js, Express, PostgreSQL, and JWT authentication.
 
-#Features
-##Authentication & Authorization
+# Features
+## Authentication & Authorization
 
 User registration and login
 
@@ -14,7 +14,7 @@ Secure password hashing using bcrypt
 
 Users can access only their own data
 
-##Task Management
+## Task Management
 
 Create, read, update, delete tasks
 
@@ -34,7 +34,7 @@ Tags / Categories
 
 Tasks are linked to authenticated users
 
-#Task Status & Deadline Handling
+# Task Status & Deadline Handling
 
 Automatically marks tasks as overdue
 
