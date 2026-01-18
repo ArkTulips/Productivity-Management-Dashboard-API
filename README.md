@@ -94,7 +94,7 @@ npm install
 
 Create a .env file inside server/:
 
-PORT=5000
+PORT=5000 
 DB_USER=your_db_user
 DB_PASSWORD=your_db_password
 DB_HOST=localhost
